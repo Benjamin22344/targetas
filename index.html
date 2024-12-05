@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <h1 class="text-2xl font-bold text-center mb-6">Proyectos</h1>
+  
+  <div class="grid grid-cols-6 gap-4 mx-4 h-screen">
+    <div id="evaluacion" class="col-span-1 bg-blue-300 flex flex-col items-center justify-start border-2 border-gray-800 rounded-lg p-4 overflow-y-auto">
+      <div id="tarjeta" 
+           class="bg-white w-full p-4 rounded-lg shadow-md cursor-move mb-4"
+           draggable="true">
+        <p class="font-bold">Producto: Laptop</p>
+        <p>Precio: $1200</p>
+        <p>Hecho: No</p>
+      </div>
+    </div>
+    <div id="cotizacion" class="col-span-1 bg-blue-300 flex items-center justify-center border-2 border-gray-800 rounded-lg">Cotizacion</div>
+    <div id="negociaciones" class="col-span-1 bg-blue-300 flex items-center justify-center border-2 border-gray-800 rounded-lg">Negociaciones</div>
+    <div id="planificacion" class="col-span-1 bg-blue-300 flex items-center justify-center border-2 border-gray-800 rounded-lg">Planificacion</div>
+    <div id="ejecucion" class="col-span-1 bg-blue-300 flex items-center justify-center border-2 border-gray-800 rounded-lg">Ejecucion</div>
+    <div id="entrega" class="col-span-1 bg-blue-300 flex items-center justify-center border-2 border-gray-800 rounded-lg">Entrega</div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
